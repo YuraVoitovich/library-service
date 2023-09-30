@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: library-service
+  config:
+    import: optional:configserver:http://localhost:8071/
+  kafka:
+    consumer:
+      group-id: library-service-consumer
+
+server:
+  port: 8082
