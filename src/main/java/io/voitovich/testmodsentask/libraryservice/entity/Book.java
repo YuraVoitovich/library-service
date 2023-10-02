@@ -17,7 +17,7 @@ import java.util.UUID;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity(name = "book")
+@Entity(name = "library")
 @Builder
 public class Book {
 
